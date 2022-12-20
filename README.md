@@ -12,6 +12,12 @@ Open Source CI/CD pipeline management / orchestration written in Golang with a r
 this project provides tooling needed to take complete control over your CI/CD needs such as :
 service discovery , datacenter aware API gateway, multi-environment deployments (Cloud Providers, Local Kubernetes cluster) , traffic monitoring , automatic rollbacks , end-to-end testing , monitoring and health checks using Grafana and Prometheus, services catalogue , and much more!
 
+**updates**
+i will announce any updates here!
+
+**documentation**
+i will soon
+
 **technologies we use**
 * [Backstage](https://github.com/obsidiandynamics/kafdrop)
 * [apache kafka](https://github.com/obsidiandynamics/kafdrop)
@@ -21,6 +27,7 @@ service discovery , datacenter aware API gateway, multi-environment deployments 
 * Terraform
 * Kubernetes
 * Go (Programming Language)
+* Next.JS
 * [Opentelemtry](https://github.com/obsidiandynamics/kafdrop)
 * [Watermill](https://github.com/obsidiandynamics/kafdrop)
 * [Mongodb](https://github.com/obsidiandynamics/kafdrop)
@@ -36,6 +43,12 @@ service discovery , datacenter aware API gateway, multi-environment deployments 
 * shipper : shipper deploys your code to different types of environments (Cloud, On-Prem , etc...) and does end to end tests
 * theye : theye will keep an on "EYE" on system state and try to get desired state of the whole system talking to DCIMT and ci-service , shipper
 * DCIMT : DataCenter Inter-Connect Management Tool is responsible for Infrastructure as a service state keeping again working in multi envrionments (cloud , on-prem)
+
+**community**
+<br>
+you can join our slack or discord (will be updated soon)
+<br>
+https://join.slack.com/t/persys-cicd/shared_invite/zt-1lje1wst0-E0TjKMIXGe1FGLex1uQoxg
 
 
 **Cloud Native Computing Foundation**
