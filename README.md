@@ -13,9 +13,11 @@ this project provides tooling needed to take complete control over your CI/CD ne
 service discovery , datacenter aware API gateway, multi-environment deployments (Cloud Providers, Local Kubernetes cluster) , traffic monitoring , automatic rollbacks , end-to-end testing , monitoring and health checks using Grafana and Prometheus, services catalogue , and much more!
 
 **updates**
+<br>
 i will announce any updates here!
 
 **documentation**
+<br>
 i will soon
 
 **technologies we use**
