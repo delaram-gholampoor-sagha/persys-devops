@@ -46,9 +46,9 @@ service discovery , datacenter aware API gateway, multi-environment deployments 
 * Datacenter Architectures and designers
 * Software test specialist
 * Project managers
-<br>
-**please refer to [Community]() section and consider joining us**
 
+**please refer to community section and consider joining us**
+[Community](#community)
 # Open Source Tech We Use
 * [Backstage](https://github.com/backstage/backstage)
 * [apache kafka](https://github.com/obsidiandynamics/kafdrop)
