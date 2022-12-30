@@ -5,6 +5,8 @@ DevOps as a service !! **i am working on a public version that soon will be rele
 <br>
 **[Updates](#Updates)**
 <br>
+**[Contributions](#Contributions)**
+<br>
 **[Open Source]()**
 <br>
 **[Goals!](#Goals!)**
@@ -31,6 +33,21 @@ service discovery , datacenter aware API gateway, multi-environment deployments 
 * **[10/3/2022] getting my hands on the hardware and infrastructures needed for developing this project has costs please consider donating to us!**
 * **[12/24/2022] I'm actively trying to build a community so please at lease give us a star or contribute to our cause!**
 * **[12/30/2022] currently the project has hard coded personal / sensitive data in it i'll release the first working version soon to our open source repository which is : https://github.com/miladhzzzz/persys-cicd**
+
+# Contributions
+**Currently we are looking for contributors in fields of expertise listed below:**
+<br>
+* DevOps Engineers
+* UI/UX Designer
+* Frontend react, next.js engineer
+* Golang developers
+* Rust developers
+* Cloud network engineers
+* Datacenter Architectures and designers
+* Software test specialist
+* Project managers
+<br>
+**please refer to [Community]() section and consider joining us**
 
 # Open Source Tech We Use
 * [Backstage](https://github.com/backstage/backstage)
