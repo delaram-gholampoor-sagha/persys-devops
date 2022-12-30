@@ -96,6 +96,8 @@ for example when you sign up for our platform you will be able to bring up a ful
 <br>
 and of course we are trying to get in Cloud Native Computing Foundation and as we mentioned above we are using and supporting a lot of CNCF technologies
 <br>
-so, thank you [CNCF](https://github.com/miladhzzzz/persys-cicd) <3
+so, thank you 
+
+[CNCF](https://github.com/miladhzzzz/persys-cicd) <3
 
 ![](cncf-ambassador.png)
