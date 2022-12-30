@@ -67,10 +67,9 @@ for example when you sign up for our platform you will be able to bring up a ful
 * Q4 2023 : World Dominance :D.
 
 # community
-  <br>
-  Our primary goal in this project as we discussed before is to build a community of iranian highly skilled
+  **Our primary goal in this project as we discussed before is to build a community of iranian highly skilled
   specialists to help each other and junior developers in a way that we can write great software that is maintained by
-  community contributions.
+  community contributions.**
   <br>
   and of course integrating our community with the world of Open Source!
   <br>
