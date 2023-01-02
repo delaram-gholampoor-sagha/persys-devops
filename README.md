@@ -23,10 +23,10 @@ DevOps as a service !! **i am working on a public version that soon will be rele
 <!-- TOC -->
 * this is the system design architecture which i came up with it's just a mind map to look at.
 * feel free to open an ISSUE mentioning any problems or ideas you might have!
-![](arch.png)
+  ![](arch.png)
 
-Open Source CI/CD pipeline management (DevOps as a Service) / orchestration written in Golang with a rust CLI client and next.js frontend,
-this project provides tooling needed to take complete control over your CI/CD needs such as :
+Open Source DevOps as a Service platform written in Golang with a rust CLI client and next.js frontend,
+this project provides tooling needed to take complete control over your CI/CD and Development Environment needs such as :
 service discovery , datacenter aware API gateway, multi-environment deployments (Cloud Providers, Local Kubernetes cluster) , traffic monitoring , automatic rollbacks , end-to-end testing , monitoring and health checks using Grafana and Prometheus, services catalogue , and much more!
 # Updates
 * **[8/12/2022] this whole thing is written by me so there's a lot to work on, i'll really appreciate any help!**
@@ -67,11 +67,23 @@ service discovery , datacenter aware API gateway, multi-environment deployments 
 * [Github](https://github.com)
 
 # Goals!
-* the goal of this project is to have a devops platform like https://dev.azure.com that does much more than CI/CD!
-for example when you sign up for our platform you will be able to bring up a fully managed kubernetes cluster to have and End-To-End experience from your IDE right to production!
-* or you can connect to your on premise VMware Infrastructure and fully automate your local dev environments
-* second goal is to provide developers , computer science enthusiasts, organizations with an easy to use cloud service provider that has it all! (DevOps, SysOps , MLOps, DevSecOps, Developer portal and Everything As A service)
-* multi environment deployments! you can deploy and manage your software across different Cloud Service Providers and your local developer environment.
+**This project really started because of my own pain to setup a development environmetn for one of my projects.
+to give you a little bit of detail i needed apache kafka , mongodb cluster , backstage, prometheus , grafana, signoz ,etc ...
+plus i wanted to have a CI/CD pipeline so i can automate my software development at home!
+well considering i currently am living in Tehran/Iran internet connection is a disaster and due to sanctions i cant even access ghcr.io or registry.docker.com
+so i was looking for a platform to give me everything i need from required dbs , message brokers etc... in a very simplistic manner,
+and i found None! so i started making myself the developer platform that i desired! LOL
+in summary the goal of this project is** :
+* giving you everything you need for developing your project
+* automatic git management on webhooks and starting the build proccess that way
+* service discovery and api gateway
+* monitorning
+* service catalogue (Developer Portal)
+* automatic builds and end-to-end testing
+* deployment to test environment on kubernetes
+* multi-environment deployments and management of my service in different places like (Cloud Service Providers, Local environment)
+  <br>
+  and of course what i have in mind is a platform like https://dev.azure.com but actually having kubernetes as a service in our platform is going to make everything easy!
 
 # Project Road Map
 * Q1 2023 : Clean UP the code repository for and rebase to public repository.
@@ -84,17 +96,17 @@ for example when you sign up for our platform you will be able to bring up a ful
 * Q4 2023 : World Dominance :D.
 
 # community
-  **Our primary goal in this project as we discussed before is to build a community of iranian highly skilled
-  specialists to help each other and junior developers in a way that we can write great software that is maintained by
-  community contributions.**
-  <br>
-  and of course integrating our community with the world of Open Source!
-  <br>
-  we can find a lot of great software that is written by millions of Open Source contributors accross the globe in https://github.com/readme
-  <br>
-  you can join "your" community and start contributing in various projects! please visit our slack or discord (will be updated soon) to ask around and have a dialogue with others!
-  <br>
-  https://join.slack.com/t/persys-cicd/shared_invite/zt-1lje1wst0-E0TjKMIXGe1FGLex1uQoxg
+**Our primary goal in this project as we discussed before is to build a community of iranian highly skilled
+specialists to help each other and junior developers in a way that we can write great software that is maintained by
+community contributions.**
+<br>
+and of course integrating our community with the world of Open Source!
+<br>
+we can find a lot of great software that is written by millions of Open Source contributors accross the globe in https://github.com/readme
+<br>
+you can join "your" community and start contributing in various projects! please visit our slack or discord (will be updated soon) to ask around and have a dialogue with others!
+<br>
+https://join.slack.com/t/persys-cicd/shared_invite/zt-1lje1wst0-E0TjKMIXGe1FGLex1uQoxg
 
 
 # Services Description
