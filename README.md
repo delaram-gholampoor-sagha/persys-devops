@@ -21,8 +21,9 @@ DevOps as a service !! **i am working on a public version that soon will be rele
 <br>
 **[CNCF]()**
 <!-- TOC -->
-* this is the system design architecture which i came up with it's just a mind map to look at.
+* **this is the system design that i came up with it's more a mind map to look at.**
 * feel free to open an ISSUE mentioning any problems or ideas you might have!
+
   ![](arch.png)
 
 Open Source DevOps as a Service platform written in Golang with a rust CLI client and next.js frontend,
@@ -35,7 +36,7 @@ service discovery , datacenter aware API gateway, multi-environment deployments 
 * **[12/30/2022] currently the project has hard coded personal / sensitive data in it i'll release the first working version soon to our open source repository which is : https://github.com/miladhzzzz/persys-cicd**
 
 # Contributions
-**Currently we are looking for contributors in fields of expertise listed below:**
+**Cuerently we are looking for contributors in fields of expertise listed below:**
 <br>
 * DevOps Engineers
 * UI/UX Designer
