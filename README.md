@@ -28,7 +28,24 @@ this project provides tooling needed to take complete control over your CI/CD an
 service discovery , datacenter aware API gateway, multi-environment deployments (Cloud Providers, Local Kubernetes cluster) , traffic monitoring , automatic rollbacks , end-to-end testing , monitoring and health checks using Grafana and Prometheus, services catalogue , and much more!
 
 # how it works!
-**refer to [how-it-works.md](https://github.com/miladhzzzz/persys-cicd/docs/how-it-works.md) for a better understanding of how this software works!**
+**you can use pure http rest requests/ CLI client / or web application to interact with our platform.**
+<br>
+<br>
+**to keep it very simple:**
+<br>
+* you will login using gitHub oAuth.
+* the application will read all of your repositories and list them.(automatic)
+* our servers will prepare a kubernetes as a service for you.(automatic)
+* then we'll read your pipeline details from root of your repo and initialize all your required services for your app.if theres no pipeline manifest we will let you know!
+* then you will add personal access tokens and set webhooks for your repositories.
+* you can initiate a pipeline manually but when the application adds webhook to your repo you simply just need to push your code to github!
+* push your code to github!
+* monitor the building , tests , security , deployment!
+* notify the project owner and/or your team!
+  <br>
+**thats it!**
+  <br>
+  **refer to [how-it-works.md](https://github.com/miladhzzzz/persys-cicd/docs/how-it-works.md) for a better understanding of how this software works!**
 
 # Updates
 * **[8/12/2022] this whole thing is written by me so there's a lot to work on, i'll really appreciate any help!**
