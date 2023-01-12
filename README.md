@@ -118,6 +118,7 @@ https://join.slack.com/t/persys-cicd/shared_invite/zt-1lje1wst0-E0TjKMIXGe1FGLex
 * [api-gateway](https://github.com/miladhzzzz/persys-cicd) : a pretty basic api gateway that talks to the whole system and handles authorization, notification, user management (clients send http rest calls and we generate gRPC calls to microservices and use kafka to check on jobs)
 * [ci-service](https://github.com/miladhzzzz/persys-cicd) : obviously does ci server stuff build your code test it and push it to a private and/or multiple repositories.
 * [clients/cli](https://github.com/miladhzzzz/persys-cicd) : a cli interactive shell written in rust that communicates with api-gateway.
+* [clients/frontend-react](https://github.com/miladhzzzz/persys-cicd) : this is the frontend or dashboard of the project based on javascript frameworks using websockets for real-time data.
 * [events-manager](https://github.com/miladhzzzz/persys-cicd) : events manager is responsible for aggregating events throughout the whole system with kafka
 * [shipper](https://github.com/miladhzzzz/persys-cicd) : shipper deploys your code to different types of environments (Cloud, On-Prem , etc...) getting your environment from cloud-mgmt.
 * [theye](https://github.com/miladhzzzz/persys-cicd) : theye will keep an on "EYE" on system state and try to get desired state of the whole system talking to cloud-mgmt and ci-service , shipper.
