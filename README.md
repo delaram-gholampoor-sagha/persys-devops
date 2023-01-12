@@ -43,7 +43,7 @@ service discovery , datacenter aware API gateway, multi-environment deployments 
 * monitor the building , tests , security , deployment!
 * notify the project owner and/or your team!
   <br>
-**thats it!**
+**thats it now you have a ci/cd pipeline + production environment!**
   <br>
   **refer to [how-it-works.md](https://github.com/miladhzzzz/persys-cicd/docs/how-it-works.md) for a better understanding of how this software works!**
 
