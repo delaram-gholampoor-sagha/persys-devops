@@ -1,4 +1,4 @@
-# persys-CI/CD
+# persys-devops
 **DevOps as a service platform!**
 <br>
 **i am working on a public version that soon will be released here! read [Updates](#Updates)**
@@ -14,7 +14,7 @@
 * **[Community](#community)**
 * **[Services Description]()**
 * **[Documentation](#Documentation)**
-* **[CNCF](#CNCF)**
+* **[CNCF](#Cloud Native Computing Foundation)**
 <!-- TOC -->
 
 # Architecture
@@ -27,25 +27,26 @@ Open Source DevOps as a Service platform written in Golang with a rust CLI clien
 this project provides tooling needed to take complete control over your CI/CD and Development Environment needs such as :
 service discovery , datacenter aware API gateway, multi-environment deployments (Cloud Providers, Local Kubernetes cluster) , traffic monitoring , automatic rollbacks , end-to-end testing , monitoring and health checks using Grafana and Prometheus, services catalogue , and much more!
 
-# how it works!
+# Getting started!
 **you can use pure http rest requests/ CLI client / or web application to interact with our platform.**
 <br>
 <br>
 **to keep it very simple:**
 <br>
-* you will login using gitHub oAuth.
-* the application will read all of your repositories and list them.(automatic)
-* our servers will prepare a kubernetes as a service for you.(automatic)
+* download the CLI client or use Postman to interact with our api.
+* login using gitHub oAuth.
+* the application will read all of your repositories and list them so you can add them to your pipeline.
+* our servers will prepare a kubernetes as a service for you or connect to your cloud provider.
 * then we'll read your pipeline details from root of your repo and initialize all your required services for your app.if theres no pipeline manifest we will let you know!
-* then you will add personal access tokens and set webhooks for your repositories.
-* you can initiate a pipeline manually but when the application adds webhook to your repo you simply just need to push your code to github!
+* then add personal access tokens and set webhooks for your repositories.
+* you can run a pipeline manually but when the application adds webhook to your repo you simply just need to push your code to github!
 * push your code to github!
 * monitor the building , tests , security , deployment!
 * notify the project owner and/or your team!
   <br>
-**thats it now you have a ci/cd pipeline + production environment!**
+**that's it now you have a ci/cd pipeline + production environment!**
   <br>
-  **refer to [how-it-works.md](https://github.com/miladhzzzz/persys-cicd/docs/how-it-works.md) for a better understanding of how this software works!**
+  **refer to [getting-started.md](https://github.com/miladhzzzz/persys-cicd/docs/getting-started.md) for a better understanding of how this software works!**
 
 # Updates
 * **[8/12/2022] this whole thing is written by me so there's a lot to work on, i'll really appreciate any help!**
@@ -55,6 +56,7 @@ service discovery , datacenter aware API gateway, multi-environment deployments 
 * **[1/12/2023]  achieved first working version on my local environment cleanup is coming along good!**
 * **[1/12/2023]  refactoring code to meet a modern microservice architecture boilerplate**
 * **[1/12/2023]  changed the architecture! also working on a linear design that will be available soon!**
+* **[1/25/2023]  im working on a working version for Azure to deploy the whole project and get a demo.**
 
 # Contributions
 **we are looking for contributors in fields of expertise listed below:**
@@ -117,20 +119,6 @@ in summary the goal of this project is** :
 * Q4 2023 : Release the software for on premise use (hosting it yourself).
 * Q4 2023 : World Dominance :D.
 
-# community
-**Our primary goal in this project as we discussed before is to build a community of iranian highly skilled
-specialists to help each other and junior developers in a way that we can write great software that is maintained by
-community contributions.**
-<br>
-and of course integrating our community with the world of Open Source!
-<br>
-we can find a lot of great software that is written by millions of Open Source contributors accross the globe in https://github.com/readme
-<br>
-you can join "your" community and start contributing in various projects! please visit our slack or discord (will be updated soon) to ask around and have a dialogue with others!
-<br>
-https://join.slack.com/t/persys-cicd/shared_invite/zt-1lje1wst0-E0TjKMIXGe1FGLex1uQoxg
-
-
 # Services Description
 * [api-gateway](https://github.com/miladhzzzz/persys-cicd) : a pretty basic api gateway that talks to the whole system and handles authorization, notification, user management (clients send http rest calls and we generate gRPC calls to microservices and use kafka to check on jobs)
 * [ci-service](https://github.com/miladhzzzz/persys-cicd) : obviously does ci server stuff build your code test it and push it to a private and/or multiple repositories.
@@ -148,6 +136,20 @@ https://join.slack.com/t/persys-cicd/shared_invite/zt-1lje1wst0-E0TjKMIXGe1FGLex
 * [install.md](https://github.com/miladhzzzz/persys-cicd/install.md)
 * [architecture.md](https://github.com/miladhzzzz/persys-cicd/architecture.md)
 * [contributions.md](https://github.com/miladhzzzz/persys-cicd/contributions.md)
+
+# Community
+**Our primary goal in this project as we discussed before is to build a community of iranian highly skilled
+specialists to help each other and junior developers in a way that we can write great software that is maintained by
+community contributions.**
+<br>
+and of course integrating our community with the world of Open Source!
+<br>
+we can find a lot of great software that is written by millions of Open Source contributors accross the globe in https://github.com/readme
+<br>
+you can join "your" community and start contributing in various projects! please visit our slack or discord (will be updated soon) to ask around and have a dialogue with others!
+<br>
+https://join.slack.com/t/persys-cicd/shared_invite/zt-1lje1wst0-E0TjKMIXGe1FGLex1uQoxg
+
 
 # Cloud Native Computing Foundation
 <br>
